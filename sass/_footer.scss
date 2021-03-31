@@ -1,0 +1,44 @@
+.footer {
+    height: 50vw;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:  flex-end;
+    align-items: center;
+
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        height: max-content;
+
+        &--large { 
+            width: 80%;
+        }
+
+        &--small { 
+            width: 15%;
+            margin-top: 7vw;
+            margin-bottom: 1vw;
+        }
+    }
+
+    &__h1 {
+        color: #000;
+        font-size: 6vw;
+        font-family: 'Cinzel';
+        font-weight: 400;
+        line-height: 6vw;
+        text-align: center;
+    }
+
+    &__h2 {
+        color: red;
+        font-size: 1.75vw;
+        font-family: 'Josefin Sans';
+        font-weight: 400;
+        margin-top: 6vw;
+    }
+}

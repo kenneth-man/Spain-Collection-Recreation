@@ -1,0 +1,132 @@
+.discover {
+    background-color: #000;
+    height: 30vw;
+    width: 100%;
+    position: relative;
+
+    &__row {
+        position: absolute;
+        top: 82.9%;
+        left: 2.5%;
+        height: 25vw;
+        width: 95%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__box {
+        height: 100%;
+        width: 23%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        background-size: cover;
+        padding: 0 2vw;
+        padding-bottom: 1vw;
+        border-radius: 0.5vw;
+        border: none;
+        box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+        transition: all 0.2s;
+
+        &--1 {
+            background-image: linear-gradient(to bottom left, rgba(0,0,0,0.01),rgba(0,0,0,0.99)), url(../res/discover-img1.jpg);
+            background-position-x: 30%;
+        }
+        
+        &--2 {
+            background-image: linear-gradient(to bottom left, rgba(0,0,0,0.01),rgba(0,0,0,0.99)), url(../res/discover-img2.jpg);
+        }
+
+        &--3 {
+            background-image: linear-gradient(to bottom left, rgba(0,0,0,0.01),rgba(0,0,0,0.99)), url(../res/discover-img3.jpg);
+            background-position-x: 20%;
+        }
+
+        &--4 {
+            background-image: linear-gradient(to bottom left, rgba(0,0,0,0.01),rgba(0,0,0,0.99)), url(../res/discover-img4.jpg);
+        }
+
+        &--group {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+
+            height: max-content;
+            width: 100%;
+        }
+
+        &:hover {
+            transform: scale(1.02);
+            box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+        }
+    }
+
+    &__h1,
+    &__h2,
+    &__h3,
+    &__para {
+        color: #fff;
+    }
+
+    &__h1 {
+        position: absolute;
+        top: 8%;
+        left: 10%;
+        font-size: 2vw;
+        font-weight: 400;
+        font-family: 'Cinzel';
+        text-align: start;
+    }
+
+    &__h2 {
+        font-size: 0.8vw;
+        font-family: 'Cinzel';
+        text-transform: uppercase;
+    }
+
+    &__h3 {
+        font-size: 1.3vw;
+        font-family: 'Cinzel';
+        text-transform: uppercase;
+    }
+
+    &__para {
+        font-size: 0.9vw;
+        font-family: 'Josefin Sans';
+        text-align: start;
+        line-height: 1.2vw;
+    }
+
+    &__link {
+        height: max-content;
+        width: max-content;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover svg {
+            fill: #fff;
+            border: 1px solid #fff;
+        }
+
+        &:active svg {
+            fill: rgba(255,255,255,0.3);
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+    }
+
+    &__fakearrowbtn {
+        padding: 0.8vw;
+        border: 1px solid rgba(255,255,255,0.6);
+        border-radius: 50%;
+        height: 2.5vw;
+        width: 2.5vw;
+        fill: rgba(255,255,255,0.6);
+        transition: all 0.3s;
+    }
+}

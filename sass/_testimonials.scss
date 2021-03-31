@@ -1,0 +1,192 @@
+.testimonials {
+    background-color: #000;
+    height: 120vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    &__s1 {
+        height: 35%;
+        width: 100%;
+        position: relative;
+
+        display: flex;
+        justify-content: center;
+
+        &--img {
+            height: 100%;
+            width: 30%;
+            object-fit: cover;
+            border-radius: 0.1vw;
+            filter: brightness(60%);
+            box-shadow: 3px 3px 50px rgba(255,255,255,0.25);
+        }
+
+        &--column {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            position: absolute;
+            top: 20%;
+            left: 25%;
+            height: 55%;
+            width: 50%;
+        }
+
+        &--h1 {
+            color: #fff;
+            font-size: 6.5vw;
+            font-family: 'Cinzel';
+            font-weight: 400;
+            text-align: center;
+            line-height: 6vw;
+        }
+    }
+
+    &__s2 {
+        height: 28%;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        &--img-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            height: 75%;
+            width: 50%;
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0.01), rgba(0,0,0,0.99)),url(../res/testimonials-img2.jpg);
+            background-size: cover;
+            background-position-y: 35%;
+            border-radius: 0.1vw;
+            box-shadow: 3px 3px 50px rgba(255,255,255,0.25);
+        }
+    }
+
+    &__s3 {
+        height: 28%;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        &--row {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+            height: 90%;
+            width: 100%;
+        }
+
+        &--box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            height: 100%;
+            width: max-content;
+        }
+
+        &--img-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 88%;
+            width: 20vw;
+            background-size: cover;
+            border-radius: 0.1vw;
+            box-shadow: 3px 3px 50px rgba(255,255,255,0.25);
+
+            &-1 {
+                background-image: linear-gradient(to bottom, rgba(0,0,0,0.01), rgba(0,0,0,0.99)),url(../res/testimonials-img3.jpg);
+                background-position-x: 55%;
+            }
+
+            &-2 {
+                background-image: linear-gradient(to bottom, rgba(0,0,0,0.01), rgba(0,0,0,0.99)),url(../res/testimonials-img4.jpg);
+                background-position-x: 55%;
+            }
+
+            &-3 {
+                background-image: linear-gradient(to bottom, rgba(0,0,0,0.01), rgba(0,0,0,0.99)),url(../res/testimonials-img-5.jpg);
+            }
+        }
+    }
+
+    &__h1,
+    &__h2,
+    &__h3 {
+        font-family: 'Josefin Sans';
+    }
+
+    &__h1 {
+        text-transform: uppercase;
+        color: red;
+        font-size: 0.8vw;
+        font-weight: 300;
+    }
+
+    &__h2 {
+        color: #fff;
+        font-size: 0.9vw;
+        font-weight: 500;
+    }
+
+    &__h3 {
+        color: rgb(187, 187, 187);
+        font-size: 0.7vw;
+        font-weight: 300;
+    }
+
+    &__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: max-content;
+        width: max-content; 
+
+        &:hover svg{
+            fill: #fff;
+            border: 1px solid #fff;
+        }
+
+        &:active svg{
+            fill: rgba(255,255,255,0.3);
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+    }
+
+    &__fakeplaybtn {
+        fill: rgba(255,255,255,0.6);
+        height: 3.5vw;
+        width: 3.5vw; 
+        border: 1px solid rgba(255,255,255,0.6);
+        border-radius: 50%;
+        padding: 1.1vw;
+        padding-left: 1.3vw;
+        transition: all 0.3s;
+    }
+
+    &__name-container {
+        height: 3vw;
+        width: max-content;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}

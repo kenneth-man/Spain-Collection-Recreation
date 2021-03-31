@@ -1,0 +1,81 @@
+.header {
+    height: 55vw;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    &__h1 {
+        font-size: 1.8vw;
+        font-weight: 300;
+        font-family: 'Cinzel';
+        text-align: center;
+    }
+
+    &__h2 {
+        font-size: 4.2vw;
+        font-weight: 400;
+        font-family: 'Cinzel';
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    &__display {
+        height: 65%;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        height: 90%;
+        width: max-content;
+    }
+
+    &__image-small,
+    &__image-standard,
+    &__video-standard,
+    &__video-long {
+        border-radius: 0.1vw;
+    }
+
+    &__image-small,
+    &__image-standard {
+        object-fit: cover;
+    }
+
+    &__image-small {
+        height: 80%;
+        width: 10%;
+    }
+
+    &__image-standard {
+        height: 40%;
+        width: 24vw;
+    }
+
+    &__video-standard {
+        height: 55%;
+        width: 24vw;
+
+        //need this to change a video's width ??? idk why
+        object-fit: cover;
+    }
+
+    &__video-long {
+        height: 100%;
+        width: 25%;
+
+        //need this to change a video's width ??? idk why
+        object-fit: cover;
+    }
+}

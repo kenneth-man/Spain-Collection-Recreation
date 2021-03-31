@@ -1,0 +1,329 @@
+//headings
+.heading-1 {
+    
+}
+
+.heading-2 {
+    
+}
+
+.heading-3 {
+    
+}
+
+.heading-4 {
+    
+}
+
+.heading-5 {
+    
+}
+
+
+//buttons
+.btn {
+
+}
+
+//links
+.link {
+    opacity: 70%;
+    color: rgb(87, 87, 87);
+    font-size: 0.9vw;
+    font-weight: 400;
+    font-family: 'Heebo';
+    text-decoration: none;
+    transition: all 0.4s;
+
+    &--selected {
+        color: rgb(255, 0, 0) !important;
+        text-decoration: underline !important;
+        text-decoration-color: rgb(255, 0, 0) !important;
+        text-decoration-thickness: 2.5px !important;
+        text-underline-offset: 0.15vw !important;
+        border-radius: 2vw !important;
+    }
+
+    &:hover {
+        color: rgb(255, 0, 0);
+        text-decoration: underline; 
+        text-decoration-color: rgb(255, 0, 0); 
+        text-decoration-thickness: 2.5px; 
+        text-underline-offset: 0.15vw;
+        border-radius: 2vw;
+    }
+
+    &:active {
+        color: #000;
+        text-decoration: none;
+        text-decoration-color: #000;
+    }
+}
+
+.red-italic {
+    color: red;
+    font-style: italic;
+}
+
+//////////////////////////////////////////////////////////////////////////////////////
+//helper classes//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+
+//margin
+.mb-tiny {
+    margin-bottom: 0.5vh;    
+}
+
+.mb-small {
+    margin-bottom: 1vh; 
+}
+
+.mb-medium {
+    margin-bottom: 2vh; 
+}
+
+.mb-large {
+    margin-bottom: 4vh; 
+}
+
+.mb-big {
+    margin-bottom: 6vh; 
+}
+
+.mb-huge {
+    margin-bottom: 8vh; 
+}
+
+.mb-giant {
+    margin-bottom: 12vh; 
+}
+
+.mb-immense {
+    margin-bottom: 16vh; 
+}
+
+.mt-tiny {
+    margin-top: 0.5vh; 
+}
+
+.mt-small {
+    margin-top: 1vh; 
+}
+
+.mt-medium {
+    margin-top: 2vh; 
+}
+
+.mt-large {
+    margin-top: 4vh; 
+}
+
+.mt-big {
+    margin-top: 6vh; 
+}
+
+.mt-huge {
+    margin-top: 8vh; 
+}
+
+.mt-giant {
+    margin-top: 12vh; 
+}
+
+.mt-immense {
+    margin-top: 16vh; 
+}
+
+.mr-tiny {
+    margin-right: 0.5vw; 
+}
+
+.mr-small {
+    margin-right: 1vw; 
+}
+
+.mr-medium {
+    margin-right: 2vw; 
+}
+
+.mr-large {
+    margin-right: 4vw; 
+}
+
+.mr-big {
+    margin-right: 6vw; 
+}
+
+.mr-huge {
+    margin-right: 8vw; 
+}
+
+.mr-giant {
+    margin-right: 12vw; 
+}
+
+.mr-immense {
+    margin-right: 16vw; 
+}
+
+.ml-tiny {
+    margin-left: 0.5vw; 
+}
+
+.ml-small {
+    margin-left: 1vw; 
+}
+
+.ml-medium {
+    margin-left: 2vw; 
+}
+
+.ml-large {
+    margin-left: 4vw; 
+}
+
+.ml-big {
+    margin-left: 6vw; 
+}
+
+.ml-huge {
+    margin-left: 8vw; 
+}
+
+.ml-giant {
+    margin-left: 12vw; 
+}
+
+.ml-immense {
+    margin-left: 16vw; 
+}
+
+
+//padding
+.pdb-tiny {
+    padding-bottom: 0.5vh;    
+}
+
+.pdb-small {
+    padding-bottom: 1vh; 
+}
+
+.pdb-medium {
+    padding-bottom: 2vh; 
+}
+
+.pdb-large {
+    padding-bottom: 4vh; 
+}
+
+.pdb-big {
+    padding-bottom: 6vh; 
+}
+
+.pdb-huge {
+    padding-bottom: 8vh; 
+}
+
+.pdb-giant {
+    padding-bottom: 12vh; 
+}
+
+.pdb-immense {
+    padding-bottom: 16vh; 
+}
+
+.pdt-tiny {
+    padding-top: 0.5vh; 
+}
+
+.pdt-small {
+    padding-top: 1vh; 
+}
+
+.pdt-medium {
+    padding-top: 2vh; 
+}
+
+.pdt-large {
+    padding-top: 4vh; 
+}
+
+.pdt-big {
+    padding-top: 6vh; 
+}
+
+.pdt-huge {
+    padding-top: 8vh; 
+}
+
+.pdt-giant {
+    padding-top: 12vh; 
+}
+
+.pdt-immense {
+    padding-top: 16vh; 
+}
+
+.pdr-tiny {
+    padding-right: 0.5vw; 
+}
+
+.pdr-small {
+    padding-right: 1vw; 
+}
+
+.pdr-medium {
+    padding-right: 2vw; 
+}
+
+.pdr-large {
+    padding-right: 4vw; 
+}
+
+.pdr-big {
+    padding-right: 6vw; 
+}
+
+.pdr-huge {
+    padding-right: 8vw; 
+}
+
+.pdr-giant {
+    padding-right: 12vw; 
+}
+
+.pdr-immense {
+    padding-right: 16vw; 
+}
+
+.pdl-tiny {
+    padding-left: 0.5vw; 
+}
+
+.pdl-small {
+    padding-left: 1vw; 
+}
+
+.pdl-medium {
+    padding-left: 2vw; 
+}
+
+.pdl-large {
+    padding-left: 4vw; 
+}
+
+.pdl-big {
+    padding-left: 6vw; 
+}
+
+.pdl-huge {
+    padding-left: 8vw; 
+}
+
+.pdl-giant {
+    padding-left: 12vw; 
+}
+
+.pdl-immense {
+    padding-left: 16vw; 
+}

@@ -1,0 +1,38 @@
+//colour variables
+$color-gold: #c69963;
+$color-gold-light: #f1b269;
+$color-gold-dark: #B28451;
+
+$color-silver: rgb(160, 160, 160);
+$color-silver-light: #e7e7e7;
+$color-silver-dark: #646464;
+
+//font variables
+$font-primary: 'Nunito', sans-serif;
+$font-secondary: 'Josefin Sans', sans-serif;
+
+//project set-up (removing margin + padding, border box, root font-size, color...)
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    //root font-size defined; 1 rem = 10px, since 62.5% of 16px (web default font size) = 10px
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $font-primary;
+    color: $color-silver;
+    font-weight: 300;
+    font-size: 5rem;
+    line-height: 1.6;
+    position: relative;
+    //white-space: nowrap;
+    //overflow-x: hidden;
+}
